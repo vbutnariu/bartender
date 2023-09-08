@@ -1,0 +1,34 @@
+_id: req_a81c40f6271245e38e6a7ed395e3e252
+type: Request
+parentId: fld_dc2c3ef58ba44545ba55ef91c6aad800
+modified: 1694018059917
+created: 1693918230618
+url: "{{ _.base_url }}/api/v1/printers/{{_.printerName}}"
+name: Retrieves detailed information about a specified printer name.
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_5364bae68c0f4cc8a53fbdf2707f1c30
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: true
+  disabled: false
+  username: user
+  password: user
+metaSortKey: -1693918230618
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

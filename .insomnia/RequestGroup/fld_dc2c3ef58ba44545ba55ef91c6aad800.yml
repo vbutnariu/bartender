@@ -1,0 +1,13 @@
+_id: fld_dc2c3ef58ba44545ba55ef91c6aad800
+type: RequestGroup
+parentId: wrk_96350a6ee6114b42bcb0e312eba97e36
+modified: 1693921262974
+created: 1693918230615
+name: Printers
+description: ""
+environment:
+  printerName: ZDesigner ZD421-203dpi ZPL
+environmentPropertyOrder:
+  "&":
+    - printerName
+metaSortKey: -1693918230615

@@ -1,0 +1,21 @@
+_id: req_57db0cb66f634762be59868de8c7fd5f
+type: Request
+parentId: fld_9ba725c026bb4c94a91d112f4ea1ae41
+modified: 1693918230617
+created: 1693918230617
+url: "{{ _.base_url }}/api/v1/libraries"
+name: Returns the available libraries.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693918230617
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

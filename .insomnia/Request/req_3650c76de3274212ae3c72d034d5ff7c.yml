@@ -1,0 +1,100 @@
+_id: req_3650c76de3274212ae3c72d034d5ff7c
+type: Request
+parentId: fld_f1030cfeec14477a85473a2e7759c031
+modified: 1694202954888
+created: 1693933642363
+url: "{{ _.base_url }}/api/v1/print"
+name: Test print  preview
+description: "Sample Request:\r
+
+  \r
+
+  {\r
+
+  \   Either:\r
+
+  \   \r
+
+  \   \"LibraryID\": \"e79865ac-2fb1-41c7-afcf-996152f0a850\",\r
+
+  \   \"Relativepath\": \"Automotive/AIAG/B-10/BMW.btw\",\r
+
+  \   \r
+
+  \   or:\r
+
+  \   \r
+
+  \   \"AbsolutePath\":
+  \"c:\\\\\\\\inetpub\\\\\\\\wwwroot\\\\\\\\BarTender\\\\\\\\wwwroot\\\\\\\\Tem\
+  plates\\\\\\\\Automotive\\\\\\\\AIAG\\\\\\\\B-10\\\\\\\\BMW.btw\"\r
+
+  \r
+
+  \   \"DocumentPassword: \"MyPassword\",\r
+
+  \   \"PrintRequestID\": \"fe80480e-1f94-4A2f-8947-e492800623aa\",  \r
+
+  \   \"Printer\": \"foo\",\r
+
+  \   \"StartingPosition\": 2,\r
+
+  \   \"Copies\": 3,\r
+
+  \   \"SerialNumbers\": 4,\r
+
+  \   \"NamedDataSources\": {\r
+
+  \      \"NamedDataSource1\" : \"My Value\",\r
+
+  \      \"NamedDataSource2\" : \"My Other Value\"\r
+
+  \   },\r
+
+  \   \"DataEntryControls\": {\r
+
+  \      \"Edit Control 1\": \"XX\",\r
+
+  \      \"Edit Control 2\": \"XX\"\r
+
+  \   }\r
+
+  }"
+method: POST
+body:
+  mimeType: application/json-patch+json
+  text: |-
+    {
+      "libraryID": "6763aef6-4b32-4dbd-acd4-fcbd36b71c81",
+      "relativePath": "Product.btw",
+      "printRequestID": "8faab6ae-3111-4c7f-9062-4da3561c6222",
+      "printer": "PDF",
+      "startingPosition": 0,
+      "copies": 2,
+      "serialNumbers": 0,
+      "dataEntryControls": {
+    		"ProductTextBox": "Aspirin Complex",
+    		"PZNInput": "99999"
+    	}
+    	
+    }
+parameters:
+  - id: pair_c0040cad0c6e40998ae651c326d0e903
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json-patch+json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkRFU0tUT1AtTUEwQ1A2NVxcVXNlciIsInByaW1hcnlzaWQiOiJTLTEtNS0yMS0zMTU2NDIzOTE2LTM0Njc1OTg4NzItMTAzMjA2OTYxMS0xMDAxIiwiR3JvdXBNZW1iZXJzaGlwcyI6IlMtMS01LTIxLTMxNTY0MjM5MTYtMzQ2NzU5ODg3Mi0xMDMyMDY5NjExLTUxMztTLTEtMS0wO1MtMS01LTExNDtTLTEtNS0zMi01NDQ7Uy0xLTUtMzItNTU5O1MtMS01LTMyLTU1NTtTLTEtNS0zMi01NDU7Uy0xLTUtMjtTLTEtNS0xMTtTLTEtNS0xNTtTLTEtNS0xMTM7Uy0xLTUtNS0wLTY1NzgwODIyO1MtMS01LTY0LTEwO1MtMS0xNi0xMjI4OCIsIkRlbmllZEFjY2Vzc1ByaW50ZXJzIjoiIiwibmJmIjoxNjk0MjAyODg4LCJleHAiOjE2OTQyODkyODgsImlhdCI6MTY5NDIwMjg4OH0.u54KUu-P3M9TtX-HXOcx4VC4qrXFzuaHt_3WXAxgnjw
+metaSortKey: -1693918230516
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_c342cf9a86594284a161a8f6d2bae1d4
+type: Request
+parentId: fld_9ba725c026bb4c94a91d112f4ea1ae41
+modified: 1693941212399
+created: 1693940723008
+url: "{{ _.base_url }}/api/v1/libraries/6763aef6-4b32-4dbd-acd4-fcbd36b71c81"
+name: Retrieve Documents
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693940962461
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
