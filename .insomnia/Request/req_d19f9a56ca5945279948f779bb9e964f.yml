@@ -1,7 +1,7 @@
 _id: req_d19f9a56ca5945279948f779bb9e964f
 type: Request
 parentId: fld_0d2e2b24a3b640bb907c9133c45b3b3c
-modified: 1694202880691
+modified: 1694205971833
 created: 1693918230616
 url: "{{ _.base_url }}/api/v1/Authenticate"
 name: Authenticate with your username and password for future requests.
@@ -30,7 +30,7 @@ body:
   text: |-
     {
       "userName": "user",
-      "password": "user"
+      "password": "user1"
     }
 parameters: []
 headers:
