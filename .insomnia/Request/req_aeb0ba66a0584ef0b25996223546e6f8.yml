@@ -1,0 +1,21 @@
+_id: req_aeb0ba66a0584ef0b25996223546e6f8
+type: Request
+parentId: fld_501b98ebf8e646c4961b17864001aa3c
+modified: 1693921316091
+created: 1693918230617
+url: "{{ _.base_url }}/api/v1/libraries/{{ _.id }}"
+name: Retrieves detailed information, including contents, of the specified library.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693918230617
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

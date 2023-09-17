@@ -1,0 +1,23 @@
+_id: req_a50332f4dc1d44ac98a7e6c4ee687ff2
+type: Request
+parentId: fld_bc05fd08c59245669307491bfb0e8158
+modified: 1694623489512
+created: 1693918230618
+url: "{{ _.base_url }}/api/v1/printers"
+name: Returns the available printers.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkRFU0tUT1AtTUEwQ1A2NVxcVXNlciIsInByaW1hcnlzaWQiOiJTLTEtNS0yMS0zMTU2NDIzOTE2LTM0Njc1OTg4NzItMTAzMjA2OTYxMS0xMDAxIiwiR3JvdXBNZW1iZXJzaGlwcyI6IlMtMS01LTIxLTMxNTY0MjM5MTYtMzQ2NzU5ODg3Mi0xMDMyMDY5NjExLTUxMztTLTEtMS0wO1MtMS01LTExNDtTLTEtNS0zMi01NDQ7Uy0xLTUtMzItNTU5O1MtMS01LTMyLTU1NTtTLTEtNS0zMi01NDU7Uy0xLTUtMjtTLTEtNS0xMTtTLTEtNS0xNTtTLTEtNS0xMTM7Uy0xLTUtNS0wLTMyNDE3ODgyOTtTLTEtNS02NC0xMDtTLTEtMTYtMTIyODgiLCJEZW5pZWRBY2Nlc3NQcmludGVycyI6IiIsIm5iZiI6MTY5NDYyMzQ1OCwiZXhwIjoxNjk0NzA5ODU4LCJpYXQiOjE2OTQ2MjM0NTh9.fdZz0yLfPYtQVgfvCETg7-HUKycOIO14WBalDXCDXFk
+metaSortKey: -1693918230618
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,20 @@
+_id: env_f21b19e3d18440fab9fb605d063dd50a
+type: Environment
+parentId: env_615994b9dee3021a3c4a5347742b7100c395364a
+modified: 1694917143423
+created: 1693918230613
+name: Swagger env
+data:
+  base_path: /bartender
+  scheme: http
+  host: 192.168.1.200
+  base_url: "{{ _.scheme }}://{{ _.host }}{{ _.base_path }}"
+dataPropertyOrder:
+  "&":
+    - base_path
+    - scheme
+    - host
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1693918230613
